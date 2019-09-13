@@ -11,5 +11,5 @@ arr.sort_by{|word| word.length}
 end
 
 def swap_elements(array)
- array[3] = array[3,2] 
+ array[2,3] = array[3,2] 
 end
